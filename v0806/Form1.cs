@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace v0806
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form;
+    int vx,vy;
     {
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+             vx = 10;
+             vy = 10;
+
         }
     }
 }
